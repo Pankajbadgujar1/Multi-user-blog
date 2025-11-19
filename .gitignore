@@ -1,0 +1,92 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Logs and temp files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+*.tmp
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+.env.test
+.env.production
+
+# Node.js
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vercel/
+.out/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+pip-log.txt
+
+# Ruby / Rails
+/log/*
+/tmp/*
+/vendor/bundle
+/public/system
+.byebug_history
+
+# PHP / Composer
+/vendor/
+*.phar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Databases and storage
+*.sqlite3
+*.db
+*.sql
+storage/
+uploads/
+media/
+
+# Coverage reports
+coverage/
+coverage.xml
+lcov-report/
+
+# Build artifacts
+*.o
+*.so
+*.exe
+
+# Certificates and keys
+*.pem
+*.key
+
+# Misc
+*.bak
+*.orig
